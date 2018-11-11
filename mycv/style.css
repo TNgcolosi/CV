@@ -1,12 +1,9 @@
 body {
     position: relative;
     background-color: #888;
-    background-image: url('images/blue\ and\ pruple\ print.jpg')
+    background-image: url('images/blu-print.jpg')
 }
 
-.navbar{
-     
-}
 
 .nav-link , .navbar-brand{ 
     color: #f4f4f4; cursor: pointer;
@@ -41,7 +38,7 @@ body {
 
  /*header style*/
 .header{
-    background-image: url("../mycv/images/cape\ town.jpg");
+    background-image: url("images/cape\ town.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -159,7 +156,10 @@ body {
 
    }
 
-   
+   .img-fluid {
+    width: 100% \9;
+    width: 200px;
+   }
 
    .container h1{
  color: rgb(152, 6, 185);

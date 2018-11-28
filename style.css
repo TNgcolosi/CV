@@ -1,12 +1,13 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
-body {
+body{
     position: relative;
     background-color: #888;
     background-image: url('images/blu-print.jpg');
-    margin-top: 20px;
-}
+    margin:0;
+    padding:0;
 
+}
 
 .nav-link , .navbar-brand{ 
     color: #05000c63; cursor: pointer;
@@ -14,10 +15,6 @@ body {
 
 .nav-link{ 
     margin-right: 1em !important;
-}
-
-.nav-link:hover{ 
-    /* background: #a18ef5; color: #2f1135;  */
 }
 
 .navbar-collapse{ 
@@ -30,20 +27,20 @@ body {
 
 .navbar-collapse{
     justify-content: flex-end;
-   }
+}
 
-   .navbar button{
+.navbar button{
     border:1px  solid rgba(178, 0, 249, 0.137);
-       background-color:#583388;
-       /* margin-top: 1em; */
-   }
+    background-color:#583388;
+}
 
-   .bg-dark{
+.bg-dark{
     background-color:#4c305c!important
-    }
-    .bg-primary{
+}
+
+.bg-primary{
     background-color:#c49de481!important
-    }
+}
 
  /*header style*/
 .header{
@@ -51,172 +48,299 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    height: 800px;
 
-   }   
+}   
 
-   .overlay{
+.overlay{
     position: absolute;
-    min-height: 100%;
+    min-height: auto;
     min-width: 100%;
     left: 0;
     top: 0;
     bottom: 0;
     background: rgba(244, 244, 244, 0.50);
-   }
+}
 
-   .card{
-       margin-top: 4em;
-       padding: 3em;
-       box-shadow: 0 0 20px #ccc;
-   }
+.card{
+    margin-top: 4em;
+    padding: 3em;
+    box-shadow: 0 0 20px #ccc;
+}
 
-   .description{
+.description{
     position: relative;
     top: 30%;
     margin: auto;
     padding: 9em;
 }
-.description h1{
-    margin-top: 10%;
-    color:#a18ef5 ;
-    text-align: center;
 
-   }
-   .description p{
+.description h1{
+    margin-top: 10%; 
+}
+
+.description p{
     color:rgb(53, 45, 45);
     font-size: 25px;
-    /* width: 10%; */
     line-height: 1.5;
-   }
-   .description button{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.description button{
     border:1px  solid rgba(178, 0, 249, 0.137);
     background:#583388;
     color:#fff;
-   }
+    
+}
 
-   .about{
+.firstbutton{
+    text-align: center;
+}
+
+.about{
     margin: 4em 0;
     margin-top: 3em;
     border-top: 4em;
     padding: 4em;
     position: relative;
-   }
+}
   
-   .about img{
+.about img{
     height: 70%;
-       width: 100%;
-       border-radius: 50%;
-       margin-top: 4em; 
-       margin-right: 4rem
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 4em; 
+    margin-right: 4rem
        
-   }
-   .about .span{
+}
+
+.about .span{
     display: block;
     color: #888;
     position: absolute;
     left: 115px;
-   }
-   .about .desc{
+}
+
+.about .desc{
     padding: 2em;
     border-left:4px solid #583388;
-   }
-   .about .desc h3{
-    color: #583388;
-   }
-   .about .desc p{
+}
+
+.about .desc p{
     line-height:2;
     color:#888;
-   }
+    font-family: 'Roboto', sans-serif;
+}
 
-   /*Portfolio*/
+ol {
+    position:auto;
+    display:flex;
+  }
+  
+   ol li {
+    list-style: none;
+    padding-top: 10%;
+  }
+  
+  ol li i {
+    position: relative;
+    width:80px;
+    height:80px;
+    display:block;
+    text-align:center;
+    margin-top:20%;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  ol li i:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  ol li i .fa {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    /* border-radius: 50%; */
+    line-height: calc(60px - 12px);
+    font-size:34px;
+    color: #262626;
+    transition: .5s;
+    margin-top: 20%;
+  }
+  
+  ol li:nth-child(1) i:hover .fa {
+    color: #3b5998;
+  }
+  
+  ol li:nth-child(2) i:hover .fa {
+    color: #00aced;
+  }
+  
+  ol li:nth-child(3) i:hover .fa {
+    color: #dd4b39;
+  }
+  
+  ol li:nth-child(4) i:hover .fa {
+    color: #007bb6;
+  }
+  
+  ol li:nth-child(5) i:hover .fa {
+    color: #517fa4;
+  }
+/*Portfolio*/
 .skills{
     margin: 4em 0;
-       position: relative; 
-   }
-   .skills h1{
-    color:rgb(152, 6, 185);
-    margin: 2em; 
-   }
-   .skills .img{
-     height: 5rem;
-     
-     margin: 1em;
+    position: relative; 
+}
 
-   }
+.skills .img{
+    height: 5rem;
+    margin: 1em;
 
-   
-   .projects .h1{
-    color:rgb(152, 6, 185);
-    margin: 0; 
-   }
-   .projects .card{
+}
+
+.projects .card{
     box-shadow: 0 0 20px #ccc;
     padding: 5%;
-   }
-   .projects .card img{
+}
+
+.projects .card img{
     width: 100%;
     height: 12em;
-   }
-   .projects .card-title{
-    color:#583388;
-     
-   }
-   .projects .card-body{
-    padding: 1em;
-   }
+}
 
-     .img-fluid {
+.projects .card-title{
+    color:#583388; 
+}
+
+.projects .card-body{
+    padding: 1em;
+}
+
+.img-fluid {
     height: 100% \9;
     width: 200px;
     margin-top: 2em;
-   }
+}
 
-   .container h1{
- color: #583388;
- text-align: center;
- padding: 4%;
-   }
 
-   .container h3{
-       color: #583388;
-       
-   }
 
-  
+.container h1{
+    color: #583388;
+    text-align: center;
+    padding: 4%;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Libre Baskerville', serif;
+}
 
-   .card h1{
-       color: #583388;
-   }
+.container h3{
+    color: #583388; 
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Roboto', serif;     
+}
 
-   .card p{
-       color: #888;
-   }
+.card p{
+    color: #888;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
 
-   .education{
-       padding: 5%;
-   }
+.education{
+    padding: 5%;
+}
 
-  .firstcourse{
-      background-color: #c49de481;
-  }
+.firstcourse{
+    background-color: #c49de481;
+}
 
-  .contact{
-      margin-bottom: 30%;
-  }
+.card h5 {
+    color: #583388;
+    font-family: 'Roboto', serif;
+}
 
-  .card h5 {
-      color: #583388;
-  }
+.fa{
+    font-size:24px;
+    margin-right:5px;
+}
 
-  .fa{font-size:24px;margin-right:5px}
-.row-first{margin-bottom:10px;margin-top:8px}
-.title-contact{margin-top:32px;display:none;}
-.contact-email { display:none; }
-a{transition:all .3s ease;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease}
-.quick-contact{color:#fff;background-color:rgb(160, 140, 207);text-align:center}
-.contact a{-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;border-radius:2px;display:block;background-color:rgba(255,255,255,0.25);font-size:20px;text-align:center;color:#fff;padding:7px}
-.contact a:hover{background-color:rgba(255,255,255,0.85);text-decoration:none}
-.contact a.skype:hover,.fa-skype{color:#00aff0}
-.contact a.google:hover,.fa-google-plus{color:#dd4b39}
-.contact a.linkedin:hover,.fa-linkedin{color:#0e76a8}
-.contact a.twitter:hover,.fa-twitter{color:#00acee}
+.row-first{
+    margin-bottom:10px;
+    margin-top:8px;
+}
+
+.title-contact{
+    margin-top:32px;
+    display:none;
+}
+
+.contact-email { 
+    display:none; 
+}
+
+a{
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -o-transition:all .3s ease;
+}
+
+.quick-contact{
+    color:#fff;
+    background-color:rgb(160, 140, 207);
+    text-align:center;
+}
+
+
+.contact a{
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+    display:block;
+    background-color:rgba(255,255,255,0.25);
+    font-size:20px;
+    text-align:center;
+    color:#fff;
+    padding:7px;
+}
+
+.contact a:hover{
+    background-color:rgba(255,255,255,0.85);
+    text-decoration:none;
+}
+
+.contact a.place:hover,.fa-map-marker{
+    color:#4c305c;
+}
+
+.contact a.phone:hover,.fa-phone{
+    color:#cf0d95;
+}
+
+.contact a.skype:hover,.fa-skype{
+    color:#00aff0;
+}
+
+.contact a.google:hover,.fa-google-plus{
+    color:#dd4b39;
+}
+
+.contact a.linkedin:hover,.fa-linkedin{
+    color:#0e76a8;
+}
+
+.contact a.twitter:hover,.fa-twitter{
+    color:#00acee;
+}
+
+.contact a.github:hover,.fa-github{
+    color:black;
+}

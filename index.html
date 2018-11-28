@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:b|Roboto:400i&effect=shadow-multiple" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" integrity="sha256-gVCm5mRCmW9kVgsSjQ7/5TLtXqvfCoxhdsjE6O1QLm8=" crossorigin="anonymous" />
+</head>
     <title>CV</title>
 </head>
 <body>
-    <div id="navbar"></div>
+  <div id="navbar"></div>
     
   <!-- navbar -->  
   <nav  class="navbar navbar-expand-lg fixed-top bg-dark bg-primary ">  
@@ -50,11 +52,11 @@
     </div>
       <div class="container">
           <div class="description">
-            <h1>Hello, I'm Thandi
-            <p> A lamp stack web developer in training at CodeSpace,<br> Cape Town, South Africa.</p>  
+            <h1 class="animated bounceInDown">Hello, I'm Thandi</h1>
+            <p class="firstbutton"> A web developer in training at CodeSpace,<br> Cape Town, South Africa. <br><br>
             <a href="ThandekaBhenguResume.pdf" target=" blank" download="ThandekaBhenguCV"><button class="btn btn-outline-secondary">Download CV</button> </a>
-            <a href="https://www.linkedin.com/in/thandeka-bhengu-14095095/" target=" blank"><button class="btn btn-outline-secondary ">My LinkedIn </button> </a> 
-            </h1>  
+            <a href="https://www.linkedin.com/in/thandeka-bhengu-14095095/" target=" blank"><button class="btn btn-outline-secondary">My LinkedIn </button> </a> 
+             </p> 
           </div>
       </div>
   </header>
@@ -67,16 +69,17 @@
             <span class="text-justify"></span>
         </div>
 
-          <div class="col-lg-8 col-md-8 col-sm-12 desc">
-            <h3>Thandeka Bhengu</h3>
+          <div class="col-lg-8 col-md-8 col-sm-12 desc" style="justify">
+            <h1>Thandeka Bhengu</h1>
             <p>
-              I am a lamp stack web development student at CodeSpace in Cape Town.
-              My coding journey started earlier this year when I was working on a CSI project with 
-              high school students and realised that they needed more exposure to tech resources and knowledge.
-              I found out about Code4CT, sent a student to learn there, and was inspired by my student to learn to program myself. 
-              I am fascinated by what I have discovered so far and am eager to solve real world problems with my new tech skills, 
-              especially problems specific to the socio-economic dynamics of South Africa. Have a look at my code community to see more
-              of my work that brings young people in contact with technology.
+              I am a web development student at CodeSpace in Cape Town. 
+              My coding journey started in June this year when I was working on a CSI project with  high school students
+              and realised that they needed more exposure to tech resources and knowledge. 
+              I found out about Code4CT, sent a student to learn there, and was inspired by my student to learn to 
+              program myself. I am fascinated by what I have discovered so far and am eager to solve real world problems 
+              with my new tech skills, especially problems specific to the socio-economic dynamics of South Africa. 
+              
+              Have a look at <a href="#community"> my code community </a> to see more of my work that brings young people in contact with technology.
 
             </p>
           </div>
@@ -84,30 +87,57 @@
     </div>
   
 
-  <!-- portfolio -->
+      <!-- portfolio -->
       <div class="card" id="skills">
         <h1 class="text-center">Skills and Education</h1>
           <div class="container">
+            <ol>
             <div class="row">
+              
+                <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                    
+                  </div>
               <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
-                <img src="images/html-5-logo.jpg" class="img-fluid">
+                <li><i class="fab fa-html5 fa-3x"></i></li>
               </div>
                 <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
-                  <img src="images/css.png" class="img-fluid">   
+                  <li><i class="fab fa-css3-alt fa-3x"></i></li>
                 </div>
                   <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
-                    <img src="images/boostrap.png" class="img-fluid">
+                    <li><i class="fab fa-wordpress fa-3x"></i></li>
                   </div>
                     <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
-                      <img src="images/php.png" class="img-fluid">      
+                      <li><i class="fab fa-php fa-3x"></i></li> 
                     </div>
-                      <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
-                        <img src="images/github.png" class="img-fluid">
+                    <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                        
                       </div>
-                        <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
-                          <img src="images/mysql.png" class="img-fluid">
+           
+                <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                    
+                  </div>
+                      <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                        <li><i class="fab fa-github fa-3x"></i></li>
+                      </div>
+                      <div class="col-lg-1 col-md-2 col-sm-6 align-self-center">
+                          
                         </div>
-            </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                          <li><i class="fas fa-database fa-3x"></i></li>
+                        </div>
+                        <div class="col-lg-1 col-md-2 col-sm-6 align-self-center">
+                            
+                          </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                          <li><i class="fab fa-js-square fa-3x"></i></li>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 align-self-center">
+                            
+                          </div>
+                        </ol>
+                          </div>
+                      
+            
               <div class="education">
                 <div class="list-group col-lg-12 col-md-12 col-sm-12">
                   <a class="list-group-item flex-column align-items-start firstcourse">
@@ -136,8 +166,9 @@
                   </a>
                 </div>
               </div>
-          </div>
-      </div>
+            </div>
+          
+      
         <!-- Projects section -->
         <div class="card projects" id="projects">
             <div class="row">
@@ -186,7 +217,7 @@
                 
                 <div class="card-body">
                 <h4 class="card-title">To Do App</h4>
-                <p class="card-text"> A simple to do app made with PHP. Functionalities include: add to list, delete, edit and sort by date.</p>
+                <p class="card-text"> A simple to do app made with PHP and bootstrap. Functionalities include: add to list, delete, edit and sort by date.</p>
                 </div>
                 <div class="card-footer">
                 <a href="https://github.com/ThandekaBhengu/to-do-app.git" target=" blank" class="card-link">See code on Github</a>
@@ -212,16 +243,16 @@
                       fellow citizens. Below are some pictures of projects that I have worked on that have focused on exposing
                       young learners from disadvantaged backgrounds to programming and time on computers in general. I include this because these
                     experiences are what sparked my interest in programming, these are the young people who inspired me to learn what I now know. </p>
-                    <ol class="carousel-indicators">
+                    <ul class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    </ol>
+                    </ul>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img class="d-block w-100 h-10 rounded" src="images/raspberypi.JPG" alt="First slide" height="400">
+                          <img class="d-block w-100 h-10 rounded" src="images/raspberypi.JPG"  alt="First slide" width="400" height="400">
                             <div class="carousel-caption d-none d-md-block">
                                 <span class="badge badge-pill badge-light"><h5>Raspberry Pi - building computers for the first time</h5></span>
                             </div>
@@ -264,58 +295,55 @@
               </div>
               </div>
 
-<!-- Contact details-->
-<div id="contact">
-<div class="card contact">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <h1>Contact Me</h1> 
-      </div>
-    </div>
-   
-    <div class="well well-sm quick-contact">
-    <div class="row">
-        <div class="col-md-12"> 
-            <a href="https://www.codespace.co.za/" target="blank"><i class="fa fa-map-marker" aria-hidden="true"></i>CodeSpace, Cape Town</a>
-        </div>
-        </div>
-    <div class="row">
-        <div class="col-md-12">
-          <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>065 876 5323</a>
-        </div>
-        </div>
-                                  <div class="row">
-                                        <div class="col-md-12">
-                                            <a href="https://web.skype.com/en/" class="skype"><i class="fa fa-skype"></i>mathandi28</a>
-                                        </div>
-                                        </div>
-                                        <div class="row">
-                                        <div class="col-md-12">
-                                            <a href="https://plus.google.com/u/0/+ThandekaBhengu" class="google"><i class="fa fa-google-plus"></i>hellothandeka@gmail.com</a>
-                                        </div>
-                                        </div>
-                                    
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <a href="www.linkedin.com/in/thandeka-bhengu-14095095" class="linkedin"><i class="fa fa-linkedin"></i>Thandeka Bhengu</a>
-                                        </div>
-                                      </div>
-                                      <div class="row">
-                                        <div class="col-md-12">
-                                            <a href="https://github.com/ThandekaBhengu" class="github"><i class="fa fa-github"></i>Github</a>
-                                        </div>
-                                    </div>
-                                
-                            
-                        
+                <!-- Contact details-->
+                <div id="contact">
+                  <div class="card contact">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h1 class="animated bounceInDown">Contact Me</h1>  
+                      </div>
                     </div>
-                </div>
+                    <div class="well well-sm quick-contact">
+                      <div class="row">
+                        <div class="col-md-12"> 
+                            <a href="https://www.codespace.co.za/" target="blank" class="place" target="blank"><i class="fa fa-map-marker"></i>CodeSpace, Cape Town</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <a href="#" class="phone"><i class="fa fa-phone" target="blank" aria-hidden="true"></i>065 876 5323</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                            <a href="https://web.skype.com/en/" target="blank" class="skype"><i class="fa fa-skype"></i>mathandi28</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                            <a href="https://plus.google.com/u/0/+ThandekaBhengu" target="blank" class="google"><i class="fa fa-google-plus"></i>hellothandeka@gmail.com</a>
+                        </div>
+                      </div>                            
+                      <div class="row">
+                        <div class="col-md-12">
+                            <a href="www.linkedin.com/in/thandeka-bhengu-14095095" target="blank" class="linkedin"><i class="fa fa-linkedin"></i>Thandeka Bhengu</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                            <a href="https://github.com/ThandekaBhengu" class="github" target="blank"><i class="fa fa-github"></i>Github</a>
+                        </div>
+                      </div>                      
+                    </div>
+                  </div>
                 </div>
             </div>
+  </div>
+</div>
             
             <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
             <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-              <script type="text/javascript" src='js/main.js'></script>
+              <script type="text/javascript" src='main.js'></script>
               <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
               <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

@@ -11,10 +11,12 @@ body{
 
 .nav-link , .navbar-brand{ 
     color: #05000c63; cursor: pointer;
+    font-family: 'Roboto', serif;
 }
 
 .nav-link{ 
     margin-right: 1em !important;
+    color: #69636e;
 }
 
 .navbar-collapse{ 
@@ -30,8 +32,8 @@ body{
 }
 
 .navbar button{
-    border:1px  solid rgba(178, 0, 249, 0.137);
-    background-color:#583388;
+    border:1px  solid rgba(236, 232, 238, 0.137);
+    background-color:#755b8a81!important;
 }
 
 .bg-dark{
@@ -89,7 +91,7 @@ body{
 
 .description button{
     border:1px  solid rgba(178, 0, 249, 0.137);
-    background:#583388;
+    background:#755b8a81!important;
     color:#fff;
     
 }
@@ -163,7 +165,7 @@ ol {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   }
   
-  ol li i .fa {
+  /* ol li i .fa {
     width: 100%;
     height:100%;
     display:block;
@@ -174,7 +176,7 @@ ol {
     color: #262626;
     transition: .5s;
     margin-top: 20%;
-  }
+  } */
   
   ol li:nth-child(1) i:hover .fa {
     color: #3b5998;
@@ -244,7 +246,7 @@ ol {
 .container h3{
     color: #583388; 
     text-shadow: 4px 4px 4px #aaa;
-    font-family: 'Roboto', serif;     
+    font-family: 'Roboto', sans-serif;     
 }
 
 .card p{
@@ -262,6 +264,11 @@ ol {
 }
 
 .card h5 {
+    color: #583388;
+    font-family: 'Roboto', serif;
+}
+
+.card h4 {
     color: #583388;
     font-family: 'Roboto', serif;
 }

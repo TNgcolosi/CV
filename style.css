@@ -6,7 +6,6 @@ body{
     background-image: url('images/blu-print.jpg');
     margin:0;
     padding:0;
-
 }
 
 .nav-link , .navbar-brand{ 
@@ -37,21 +36,19 @@ body{
 }
 
 .bg-dark{
-    background-color:#4c305c!important
+    background-color:#4c305c!important;
 }
 
 .bg-primary{
-    background-color:#c49de481!important
+    background-color:#c49de481!important;
 }
 
- /*header style*/
 .header{
     background-image: url("images/cape_town.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 800px;
-
 }   
 
 .overlay{
@@ -92,8 +89,7 @@ body{
 .description button{
     border:1px  solid rgba(178, 0, 249, 0.137);
     background:#755b8a81!important;
-    color:#fff;
-    
+    color:#fff;  
 }
 
 .firstbutton{
@@ -113,8 +109,7 @@ body{
     width: 100%;
     border-radius: 50%;
     margin-top: 4em; 
-    margin-right: 4rem
-       
+    margin-right: 4rem;      
 }
 
 .about .span{
@@ -138,14 +133,14 @@ body{
 ol {
     position:auto;
     display:flex;
-  }
+}
   
-   ol li {
+ol li {
     list-style: none;
     padding-top: 10%;
-  }
+}
   
-  ol li i {
+ol li i {
     position: relative;
     width:80px;
     height:80px;
@@ -153,51 +148,34 @@ ol {
     text-align:center;
     margin-top:20%;
     border-radius: 50%;
-    padding: 6px;
+    padding-top: 6px;
     box-sizing: border-box;
     text-decoration:none;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: .5s;
-  }
+}
   
-  ol li i:hover {
+ol li i:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  }
+}
+
+.icon {
+      margin-top: 0.5rem;
+}
   
-  /* ol li i .fa {
-    width: 100%;
-    height:100%;
+.fab {
+    width: 100px;
+    height:100px;
     display:block;
     background: linear-gradient(0deg, #fff, #ddd);
-    /* border-radius: 50%; */
-    line-height: calc(60px - 12px);
+    border-right: 50%;
     font-size:34px;
     color: #262626;
     transition: .5s;
     margin-top: 20%;
-  } */
-  
-  ol li:nth-child(1) i:hover .fa {
-    color: #3b5998;
-  }
-  
-  ol li:nth-child(2) i:hover .fa {
-    color: #00aced;
-  }
-  
-  ol li:nth-child(3) i:hover .fa {
-    color: #dd4b39;
-  }
-  
-  ol li:nth-child(4) i:hover .fa {
-    color: #007bb6;
-  }
-  
-  ol li:nth-child(5) i:hover .fa {
-    color: #517fa4;
-  }
-/*Portfolio*/
+}
+
 .skills{
     margin: 4em 0;
     position: relative; 
@@ -232,8 +210,6 @@ ol {
     width: 200px;
     margin-top: 2em;
 }
-
-
 
 .container h1{
     color: #583388;
@@ -273,10 +249,19 @@ ol {
     font-family: 'Roboto', serif;
 }
 
+#more {
+    display: none;
+}
+
+.carousel-control-prev{
+    height: 20px;
+}
+
 .fa{
     font-size:24px;
     margin-right:5px;
 }
+
 
 .row-first{
     margin-bottom:10px;
